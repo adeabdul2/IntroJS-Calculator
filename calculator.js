@@ -7,8 +7,8 @@ const operation = window.prompt("Which arithmetic operation would you like to pe
 if (operation == 1) {
     //ADDITION OPERATION
     function additionOperation() {
-        const firstvalue = window.prompt("Enter your addend: ");
-        const secondvalue = window.prompt("Enter your addend: ");
+        const firstvalue = parseFloat(window.prompt("Enter your addend: "));
+        const secondvalue = parseFloat(window.prompt("Enter your addend: "));
         const sum = firstvalue + secondvalue;
         alert("The sum of "+ firstvalue+ " and " +secondvalue +" is " + sum);
     }
