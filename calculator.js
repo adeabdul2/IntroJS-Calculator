@@ -1,6 +1,6 @@
 // Build a basic Arithmetic Calculator without a Frontend
 
-alert("ARITHMETIC CALCULATOR!");
+alert("WELCOME TO ARITHMETIC CALCULATOR!");
 
 const operation = window.prompt("Which arithmetic operation would you like to perform?\n1: Addition, \n2: Subtraction, \n3: Multiplication \n4: Division."); 
 
